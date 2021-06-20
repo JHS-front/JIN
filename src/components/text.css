@@ -1,0 +1,385 @@
+@media screen and (min-width: 800px) {
+    a {
+        text-decoration: none;
+    }
+    .section {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        top: 90px;
+        height: 100%;
+    }
+    .tsection {
+        position: relative;
+        width: 1074px;
+    }
+    /* 主要内容 */
+    .article {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 670px;
+        height: 1541px;
+        padding: 30px 40px 30px 40px;
+        background: #fff;
+        background: url(../assets/水印.png) repeat;
+        background-size: 20%;
+    }
+    /* 第一行 */
+    .article .title {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    /* 第二行 */
+    .article .icon1 {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 32px 0 30px 0;
+    }
+    .icon1-aside1 img {
+        width: 30px;
+        height: 30px;
+        background-size: 100%;
+    }
+    .article .icon1-aside1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 12px;
+        height: 30px;
+        width: 135px;
+        color: #88888888;
+        text-align: center;
+        align-items: center;
+    }
+    .icon1-aside1 .icon1-aside1-skr {
+        margin-left: 10px;
+        line-height: 30px;
+        text-align: center;
+        font-size: 12px;
+        color: #5778da;
+    }
+    .icon1-aside1-time {
+        font-size: 12px;
+        color: #88888888;
+        line-height: 30px;
+        text-align: center;
+    }
+    .article .icon1-aside2 {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        top: 0;
+        right: 0;
+        float: right;
+        height: 30px;
+        font-size: 12px;
+        color: #88888888;
+    }
+    .icon1-aside2 span {
+        line-height: 22px;
+    }
+    .icon1-aside2 img {
+        width: 22px;
+        height: 22px;
+        background-size: 100%;
+    }
+    .icon1-aside2 .share {
+        margin: 0 12px 0 10px;
+    }
+    .icon1-aside2 .qq {
+        margin: 0 13px 0 13px;
+    }
+    .icon1-aside2 .wechat {
+        cursor: pointer;
+    }
+    .wechat:hover+.QR-code {
+        display: block;
+        background-color: black;
+    }
+    .QR-code {
+        position: absolute;
+        top: 30px;
+        left: 150px;
+        display: none;
+        width: 140px;
+        height: 140px;
+        background: url(../assets/ic二维码.png);
+        background-size: 100%;
+        background-color: red;
+    }
+    .icon1-aside2 .picture2 {
+        width: 15px;
+        height: 12.5px;
+        margin: 0 12px 0 10px;
+    }
+    /* 第三行 */
+    .article .article-txt1 {
+        line-height: 28px;
+        font-size: 14px;
+        color: #787b8a;
+    }
+    /* 第四行 */
+    .article .article-txt2 {
+        line-height: 28px;
+        font-size: 14px;
+        color: #787b8a;
+        margin: 32px 0 64px 0;
+    }
+    /* 第五行 */
+    .article .article-gold {
+        font-size: 18px;
+        font-weight: bold;
+        color: #2d2e33;
+    }
+    /* 第六行 */
+    .article .icon2 {
+        position: relative;
+        height: 76px;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+    }
+    .article .icon2 img {
+        width: 14px;
+        height: 11px;
+        background-size: 100%;
+    }
+    .article .icon2 .icon2-txt1 {
+        width: 75px;
+        height: 22px;
+        color: #5778da;
+        border-radius: 11px;
+        border: 1px solid #5778da;
+        text-align: center;
+        background-color: #ffffff;
+        font-size: 12px;
+    }
+    .article .icon2 .icon2-txt2 {
+        width: 75px;
+        height: 22px;
+        color: #ffffff;
+        border-radius: 11px;
+        margin-left: 15px;
+        margin-right: 50px;
+        border: 0;
+        text-align: center;
+        background-color: #5778da;
+        font-size: 12px;
+    }
+    .article .icon2 .icon2-txt3 {
+        position: absolute;
+        top: 15px;
+        right: 0;
+        color: #88888888;
+        font-size: 10px;
+    }
+    /* 第七行 */
+    #container {
+        height: 400px;
+        margin-top: 6px;
+    }
+    .highcharts-legend {
+        display: none;
+    }
+    .highcharts-credits {
+        display: none;
+    }
+    .highcharts-axis-title {
+        display: none;
+    }
+    .highcharts-button-symbol {
+        display: none;
+    }
+    /* 第八行 */
+    .article .article-txt3 {
+        margin: 52.5px 0 40px 0;
+        font-size: 15px;
+        line-height: 28px;
+        color: #5778da;
+        font-weight: bold;
+        display: block;
+    }
+    /* 第九行 */
+    .article video {
+        width: 670px;
+        height: 381px;
+    }
+    /* 第十行 */
+    .article .article-txt4 {
+        font-size: 14px;
+        line-height: 28px;
+        color: #787b8a;
+        margin-top: 50px;
+        display: block
+    }
+    /* 第十一行 */
+    .article .article-txt5 {
+        font-size: 12px;
+        line-height: 28px;
+        color: #b2b2b2;
+        display: block
+    }
+    /* 第十二行 */
+    .article .article-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: flex-start;
+        width: 670px;
+    }
+    .article .box-Btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70px;
+        height: 70px;
+        border: 1px solid #888888;
+        border-radius: 50%;
+        margin: 60px 0 15px 0;
+    }
+    .box-Btn img {
+        width: 24px;
+        height: 25px;
+        background-size: 100%;
+    }
+    .box-Btn .box-Btn-txt1 {
+        font-size: 12px;
+        color: #b2b2b2;
+        margin-top: 10px;
+    }
+    .article .box-txt2 {
+        color: #b2b2b2;
+    }
+    /* 侧边栏一 */
+    .aside1 {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 21px;
+        width: 308px;
+        left: 766px;
+        height: 259px;
+        background: #fff;
+    }
+    .aside1 img {
+        width: 90px;
+        height: 90px;
+        background-size: 100%;
+    }
+    .aside1 .orange1 {
+        font-size: 18px;
+        color: #2d2e33;
+        margin-top: 16px;
+        font-weight: bold;
+    }
+    .aside1 .orange2 {
+        font-size: 12px;
+        color: #88888888;
+        margin-top: 13px;
+        margin-bottom: 19px;
+    }
+    .aside1 .btn {
+        width: 96px;
+        height: 30px;
+        border: 1px solid #88888888;
+        border-radius: 5px;
+        font-size: 14px;
+        background-color: #fff;
+        color: #88888888;
+    }
+    /* 侧边栏二 */
+    .aside2 {
+        position: absolute;
+        width: 308px;
+        left: 766px;
+        top: 283px;
+        height: 771px;
+        background: #fff;
+        margin-left: 21px;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+    }
+    .aside2 .txt1 {
+        margin: 28px 20px 17px 20px;
+    }
+    .aside2 .reading {
+        color: #2d2e33;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .aside2 .more {
+        font-size: 12px;
+        float: right;
+        color: #88888888;
+    }
+    .aside2 .sj {
+        margin-left: 5px;
+        float: right;
+        border: 8px solid transparent;
+        border-left: 8px solid #88888888;
+        height: 0;
+        width: 0;
+    }
+    .aside2 img {
+        margin: 0 20px;
+        width: 270px;
+        height: 167px;
+        border-radius: 5px;
+        background-size: 100%;
+    }
+    .aside2 .gold {
+        font-size: 14px;
+        color: #3d4351;
+        margin: 15px 20px 24px 20px;
+        font-weight: bold;
+    }
+    .aside2 .txt2 {
+        margin: 12px 20px 20px 20px;
+        font-size: 12px;
+        color: #88888888;
+    }
+    .aside2 .miao {
+        float: right;
+    }
+    .aside2 .box {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        border-top: 1px solid #88888888;
+        padding: 25px 0 25px 0;
+    }
+    .box img {
+        width: 90px;
+        height: 60px;
+        background-size: 100%;
+    }
+    .box .b-txt1 {
+        font-size: 14px;
+        color: #3d4351;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .b-txt1 .b-txt1-time {
+        margin-top: 7px;
+        font-size: 12px;
+        font-weight: bold;
+        color: #88888888;
+    }
+    .b-txt1 .b-txt1-type {
+        float: right;
+    }
+}

@@ -1,0 +1,114 @@
+@media screen and (max-width: 800px) and (min-width: 200px) {
+    .hello {
+        margin: 0;
+        padding: 0;
+        position: fixed;
+        height: 46px;
+        width: 100%;
+        top: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        box-shadow: 0 2px 5px #aaaaaa;
+        z-index: 99;
+        background: #fff;
+    }
+    .hello .h5img1 {
+        position: absolute;
+        top: 14.3px;
+        left: 20.6px;
+        display: block;
+        height: 16.6px;
+        width: 23px;
+        background-size: 100%;
+    }
+    .hello .h5img2 {
+        position: absolute;
+        top: 9.6px;
+        right: 19.6px;
+        display: block;
+        height: 26.6px;
+        width: 26.6px;
+        background-size: 100%;
+    }
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+    nav {
+        display: none;
+        position: absolute;
+        top: 13px;
+        height: 43px;
+        width: 1074px;
+    }
+    nav img {
+        height: 28px;
+        width: 131px;
+        background-size: 100%;
+    }
+    ul {
+        position: absolute;
+        left: 210px;
+        top: 6px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        width: 335px;
+    }
+    ul p {
+        position: absolute;
+        left: 155px;
+        bottom: -22px;
+        width: 25px;
+        height: 2px;
+        background-color: #000;
+    }
+    nav .btn {
+        font-weight: bold;
+    }
+    li {
+        color: #000;
+        flex: 1;
+        text-align: center;
+        height: 31px;
+        color: #333;
+        list-style: none;
+    }
+    nav .sousuoicon {
+        position: absolute;
+        top: 6px;
+        left: 825px;
+        height: 17px;
+        width: 18px;
+        background-size: 100%;
+    }
+    nav .btl {
+        color: #5778da;
+        border: 1px solid #5778da;
+        font-size: 14px;
+        position: absolute;
+        left: 871px;
+        top: 0;
+        width: 96px;
+        height: 30px;
+        text-align: center;
+        border-radius: 5px;
+    }
+    nav .btr {
+        background-color: #5778da;
+        position: absolute;
+        right: 0;
+        width: 96px;
+        height: 30px;
+        text-align: center;
+        font-size: 14px;
+        color: #fff;
+        border-radius: 5px;
+        border: 0;
+    }
+    .h5img {
+        display: none;
+    }
+    /*浮动*/
+}
